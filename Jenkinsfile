@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo 'Hello, Jenkins!'
+        echo 'This is to autodetect changes in Jenkinsfile'
       }
     }
   }
